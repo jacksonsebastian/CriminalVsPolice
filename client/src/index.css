@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: azure;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.capture-form-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.capture-form {
+  width: 100%;
+}
+.card {
+  padding: 10px;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.my-button {
+  margin: 10px;
+  background-color: #4a90e2;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: #357ae8;
+}
+.reset-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.form-btn {
+  display: flex;
+  justify-content: center;
+}
+/* NameField */
+.name-field {
+  margin-bottom: 10px;
+}
+
+.name-field label {
+  font-weight: bold;
+}
+
+.name-field input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* CityField and VehicleField */
+.select-field {
+  margin-bottom: 20px;
+}
+
+.select-field label {
+  font-weight: bold;
+}
+
+.select-field select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  margin-top: 4px;
+}
+
+/* Popup */
+/* .popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+} */
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  width: 400px; /* Set width to 400px */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative; /* Add position relative */
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #000;
+}
+
+.close-btn:hover {
+  color: #ff0000; /* Change color on hover */
+}
+
+

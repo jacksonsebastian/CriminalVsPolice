@@ -1,0 +1,28 @@
+[
+    {
+      "city": "Yapkashnagar",
+      "distance": 60,
+      "unit": "KM"
+    },
+    {
+      "city": "Lihaspur",
+      "distance": 50,
+      "unit": "KM"
+    },
+    {
+      "city": "Narmis City",
+      "distance": 40,
+      "unit": "KM"
+    },
+    {
+      "city": "Shekharvati",
+      "distance": 30,
+      "unit": "KM"
+    },
+    {
+      "city": "Nuravgram",
+      "distance": 20,
+      "unit": "KM"
+    }
+  ]
+  
