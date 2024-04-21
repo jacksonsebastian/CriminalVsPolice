@@ -10,3 +10,6 @@ Police Vs Criminal is a web application that simulates the capture of a fugitive
 
 ## Installation
 - npm install express body-parser cors nodemon
+
+## Run command
+- npm run dev 

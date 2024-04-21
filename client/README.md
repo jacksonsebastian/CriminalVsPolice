@@ -23,3 +23,6 @@ npm install formik yup axios
 `Node.js:` Backend environment for server-side logic.
 `Express.js:` Web application framework for Node.js for building RESTful APIs.
 `JSON Server:` Fake REST API to serve vehicle and city data.
+
+## Run command
+- npm start
